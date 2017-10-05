@@ -6,7 +6,7 @@ function destructivelyAppendKitten(a){
   kittens.push(a)
   return kittens
 }
-
+console.log(kittens)
 function destructivelyPrependKitten(a){
 
   kittens.shift(a)
