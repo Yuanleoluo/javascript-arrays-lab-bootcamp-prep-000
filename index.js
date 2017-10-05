@@ -3,8 +3,8 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(a){
-  kittens.push(a)
-  return kittens
+  var b = [...kittens, a]
+  return b
 }
 
 function destructivelyPrependKitten(a){
