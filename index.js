@@ -9,6 +9,6 @@ function destructivelyAppendKitten(a){
 
 function destructivelyPrependKitten(a){
 
-  
+
   return kittens
 }
