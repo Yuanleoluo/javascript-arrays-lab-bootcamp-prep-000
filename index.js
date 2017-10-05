@@ -6,7 +6,7 @@ function destructivelyAppendKitten(a){
   kittens.push(a)
   return kittens
 }
-kittens = ["Milo", "Otis", "Garfield"]
+
 function destructivelyPrependKitten(a){
 
   kittens.shift(a)
