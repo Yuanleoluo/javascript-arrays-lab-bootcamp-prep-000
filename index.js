@@ -7,3 +7,7 @@ function destructivelyAppendKitten(a){
   return kittens
 }
 
+function destructivelyPrependKitten(a){
+  kittens.shift(a)
+  return kittens
+}
